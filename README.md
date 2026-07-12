@@ -1,15 +1,19 @@
-# NumPy Fundamentals
+# Week 1 Day 4 - Exploratory Data Analysis
 
-## Week 1 AI ML Internship
+## Tasks Completed
 
-### Features
-- 1D, 2D and 3D arrays
-- Broadcasting
-- Vectorized operations
-- Matrix multiplication
-- CSV statistical analysis (mean, standard deviation, correlation)
+- Loaded CSV dataset
+- Displayed dataset information
+- Displayed summary statistics
+- Checked missing values
+- Saved EDA report
+- Plotted distribution of numeric columns
+- Generated correlation heatmap
+- Generated Top 10 categorical plots
 
-### Technologies
-- Python
-- NumPy
-- Pandas
+## Outputs
+
+- eda_output.csv
+- correlation_heatmap.png
+- distribution_<column>.png
+- top10_<column>.png
