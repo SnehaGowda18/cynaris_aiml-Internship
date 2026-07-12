@@ -3,65 +3,113 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
 # ---------------------------------
-# Create output folder
+# Create Output Folder
 # ---------------------------------
+
 os.makedirs("outputs", exist_ok=True)
+
 
 # ---------------------------------
 # Load Dataset
 # ---------------------------------
-df = pd.read_csv("sample_data.csv")
+
+df = pd.read_csv("data/sample_data.csv")
+
 
 # ---------------------------------
 # Dataset Inspection
 # ---------------------------------
+
 print("=" * 50)
 print("Dataset Information")
 print("=" * 50)
+
 df.info()
 
-print("\n" + "=" * 50)
-print("Dataset Description")
+
+print("\nDataset Description")
 print("=" * 50)
+
 print(df.describe())
 
-print("\n" + "=" * 50)
-print("Missing Values")
+
+print("\nMissing Values")
 print("=" * 50)
+
 print(df.isnull().sum())
 
+
 # Save EDA output
-df.describe(include="all").to_csv("outputs/eda_output.csv")
+
+df.describe(include="all").to_csv(
+    "outputs/eda_output.csv"
+)
+
 
 # ---------------------------------
-# Numeric Column Distributions
+# Distribution Plots
 # ---------------------------------
-numeric_columns = ["Age", "Salary", "Marks"]
 
-for column in numeric_columns:
-    if column in df.columns:
-        plt.figure(figsize=(6, 4))
-        plt.hist(df[column], bins=8, edgecolor="black")
-        plt.title(f"Distribution of {column}")
-        plt.xlabel(column)
-        plt.ylabel("Frequency")
+numeric_columns = [
+    "Age",
+    "Salary",
+    "Marks"
+]
+
+
+for col in numeric_columns:
+
+    if col in df.columns:
+
+        plt.figure(figsize=(6,4))
+
+        plt.hist(
+            df[col].dropna(),
+            bins=10,
+            edgecolor="black"
+        )
+
+        plt.title(
+            f"Distribution of {col}"
+        )
+
+        plt.xlabel(col)
+
+        plt.ylabel("Count")
+
         plt.tight_layout()
 
-        plt.savefig(f"outputs/distribution_{column}.png")
+        plt.savefig(
+            f"outputs/distribution_{col}.png"
+        )
+
         plt.close()
+
+
 
 # ---------------------------------
 # Correlation Heatmap
 # ---------------------------------
-corr_columns = ["Age", "Height", "Weight", "Marks", "Salary"]
+
+corr_columns = [
+    "Age",
+    "Height",
+    "Weight",
+    "Marks",
+    "Salary"
+]
+
 
 available_columns = [
-    col for col in corr_columns 
+    col for col in corr_columns
     if col in df.columns
 ]
 
-plt.figure(figsize=(7, 5))
+
+plt.figure(figsize=(7,5))
+
 
 sns.heatmap(
     df[available_columns].corr(),
@@ -69,42 +117,79 @@ sns.heatmap(
     cmap="coolwarm"
 )
 
-plt.title("Correlation Heatmap")
+
+plt.title(
+    "Correlation Heatmap"
+)
+
+
 plt.tight_layout()
 
-plt.savefig("outputs/correlation_heatmap.png")
+
+plt.savefig(
+    "outputs/correlation_heatmap.png"
+)
+
+
 plt.close()
+
+
 
 # ---------------------------------
 # Top 10 Category Counts
 # ---------------------------------
-categorical_columns = ["Gender", "State"]
 
-for column in categorical_columns:
-    if column in df.columns:
-        plt.figure(figsize=(7, 4))
+category_columns = [
+    "Government",
+    "State"
+]
 
-        df[column].value_counts().head(10).plot(
+
+for col in category_columns:
+
+    if col in df.columns:
+
+        plt.figure(figsize=(7,4))
+
+
+        df[col].value_counts().head(10).plot(
             kind="bar"
         )
 
-        plt.title(f"Top 10 {column}")
-        plt.xlabel(column)
+
+        plt.title(
+            f"Top 10 {col}"
+        )
+
+
+        plt.xlabel(col)
+
         plt.ylabel("Count")
+
+
         plt.tight_layout()
 
-        plt.savefig(f"outputs/top10_{column}.png")
+
+        plt.savefig(
+            f"outputs/top10_{col}.png"
+        )
+
+
         plt.close()
+
+
 
 # ---------------------------------
 # EDA Observations
 # ---------------------------------
+
 print("\nEDA Observations:")
 print("1. Dataset contains numerical and categorical features.")
-print("2. No missing values are present in the dataset.")
-print("3. Salary and Marks distributions were analyzed.")
-print("4. Correlation between numerical features was visualized.")
-print("5. Category frequency was analyzed for Gender and State.")
+print("2. Missing values were checked and handled.")
+print("3. Distribution plots were generated for Age, Salary and Marks.")
+print("4. Correlation heatmap shows relationships between numerical features.")
+print("5. Category frequency was analyzed for Government and State.")
+
 
 print("\nEDA Completed Successfully!")
-print("All files saved inside outputs folder.")
+print("Check the outputs folder.")
