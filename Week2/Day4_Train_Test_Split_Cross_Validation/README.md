@@ -6,20 +6,21 @@ Learn how to split a dataset into training and testing sets and evaluate a machi
 
 ## Tools Used
 
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* VS Code / Google Colab
+
+# Python
+# Pandas
+# NumPy
+# Scikit-learn
+# VS Code / Google Colab
 
 ## Concepts Covered
 
-* Train/Test Split
-* Logistic Regression
-* Model Training
-* Model Prediction
-* Accuracy Evaluation
-* 5-Fold Cross-Validation
+# Train/Test Split
+# Logistic Regression
+# Model Training
+# Model Prediction
+# Accuracy Evaluation
+# 5-Fold Cross-Validation
 
 ## Project Structure
 
@@ -36,35 +37,35 @@ Week2/
 
 ## Steps Performed
 
-1. Imported the required libraries.
-2. Created a sample dataset.
-3. Selected input features and target variable.
-4. Split the dataset into training and testing sets using `train_test_split()`.
-5. Trained a Logistic Regression model.
-6. Predicted the test data and calculated accuracy.
-7. Performed 5-fold Cross-Validation using `cross_val_score()`.
-8. Saved the cross-validation scores to the `outputs` folder.
+. Imported the required libraries.
+. Created a sample dataset.
+. Selected input features and target variable.
+. Split the dataset into training and testing sets using `train_test_split()`.
+. Trained a Logistic Regression model.
+. Predicted the test data and calculated accuracy.
+. Performed 5-fold Cross-Validation using `cross_val_score()`.
+.Saved the cross-validation scores to the `outputs` folder.
 
 ## Output
 
-* Training and testing sample count
-* Test accuracy
-* Cross-validation scores
-* Average cross-validation accuracy
-* `cross_validation_scores.txt` file
+ Training and testing sample count
+ Test accuracy
+ Cross-validation scores
+ Average cross-validation accuracy
+ `cross_validation_scores.txt` file
 
 ## Learning Outcomes
 
-* Understood the importance of separating training and testing data.
-* Learned how Cross-Validation provides a more reliable model evaluation.
-* Practiced building and evaluating a machine learning model using Scikit-learn.
+ Understood the importance of separating training and testing data.
+ Learned how Cross-Validation provides a more reliable model evaluation.
+ Practiced building and evaluating a machine learning model using Scikit-learn.
 
 ## Git Workflow
 
-* Created a feature branch.
-* Made descriptive commits.
-* Pushed the branch to GitHub.
-* Raised a Pull Request.
+ Created a feature branch.
+ Made descriptive commits.
+ Pushed the branch to GitHub.
+ Raised a Pull Request.
 
 ## Author
 
