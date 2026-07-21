@@ -1,12 +1,11 @@
-,Age,Height,Weight,Marks,Salary,Goverment,State
-count,10.0,10.0,10.0,10.0,10.0,10,10
-unique,,,,,,2,5
-top,,,,,,Female,Karnataka
-freq,,,,,,5,3
-mean,24.5,174.8,69.7,84.8,34000.0,,
-std,3.0276503540974917,5.827139568909908,5.963779562212764,5.827139568909908,6055.300708194983,,
-min,20.0,165.0,60.0,75.0,25000.0,,
-25%,22.25,170.5,65.5,80.5,29500.0,,
-50%,24.5,176.0,71.0,86.0,34000.0,,
-75%,26.75,179.5,74.5,89.5,38500.0,,
-max,29.0,182.0,77.0,92.0,43000.0,,
+Age,Height,Weight,Marks,Salary,Goverment,State
+20,165,60,75,25000,Female,Karnataka
+21,168,62,78,27000,Male,Tamil Nadu
+22,170,65,80,29000,Female,Kerala
+23,172,67,82,31000,Male,Karnataka
+24,175,70,85,33000,Female,Andhra Pradesh
+25,177,72,87,35000,Male,Telangana
+26,178,73,88,37000,Female,Tamil Nadu
+27,180,75,90,39000,Male,Kerala
+28,181,76,91,41000,Female,Karnataka
+29,182,77,92,43000,Male,Telangana
