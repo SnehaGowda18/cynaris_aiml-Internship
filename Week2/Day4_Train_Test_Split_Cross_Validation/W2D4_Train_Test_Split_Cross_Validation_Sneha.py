@@ -54,13 +54,7 @@ print("\nTest Accuracy:", accuracy)
 # -----------------------------
 # Cross Validation
 # -----------------------------
-scores = cross_val_score(
-    model,
-    X,
-    y,
-    cv=5,
-    scoring="accuracy"
-)
+scores = cross_val_score(model, X, y, cv=4, scoring="accuracy")
 
 print("\nCross Validation Scores:", scores)
 print("Average Accuracy:", scores.mean())
