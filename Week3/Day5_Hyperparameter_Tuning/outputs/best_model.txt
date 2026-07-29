@@ -1,0 +1,9 @@
+Week 3 Day 5
+
+Grid Search Best Parameters:
+{'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}
+
+Random Search Best Parameters:
+{'kernel': 'linear', 'gamma': 'scale', 'C': 0.1}
+
+Accuracy: 0.9825
