@@ -1,0 +1,23 @@
+============================================================
+W6D2 - LANGCHAIN CHAIN OUTPUT
+============================================================
+
+Input 1: What is artificial intelligence?
+Output: Artificial intelligence (AI) refers to the development of computer systems that can perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making. AI uses algorithms and data to enable machines to act intelligently and make decisions without being explicitly programmed for each task. This technology has many applications in areas like robotics, healthcare, and customer service.
+------------------------------------------------------------
+
+Input 2: What is machine learning?
+Output: Machine learning is a type of artificial intelligence (AI) that allows computers to learn from data without being explicitly programmed. It enables machines to make predictions, classify patterns, and improve their performance on tasks by analyzing large amounts of data. This process is often achieved through algorithms and statistical models.
+------------------------------------------------------------
+
+Input 3: What is LangChain?
+Output: LangChain is an open-source software project that aims to standardize data interoperability across different blockchain networks. It enables seamless communication between blockchains by providing a common interface for data exchange, storage, and retrieval. This facilitates the sharing of data between chains, promoting greater collaboration and innovation in the blockchain ecosystem.
+------------------------------------------------------------
+
+Input 4: What is an LLM?
+Output: An LLM stands for Large Language Model. It's a type of artificial intelligence designed to process and generate human-like language, often used in applications like chatbots, language translation, and text summarization. LLMs are trained on vast amounts of data to learn patterns and relationships in language.
+------------------------------------------------------------
+
+Input 5: What is cloud computing?
+Output: Cloud computing is a model of delivering computing services over the internet. Instead of having physical computers on site, users access resources such as data storage, applications, and processing power through a network of remote servers. This allows users to scale up or down according to their needs.
+------------------------------------------------------------
