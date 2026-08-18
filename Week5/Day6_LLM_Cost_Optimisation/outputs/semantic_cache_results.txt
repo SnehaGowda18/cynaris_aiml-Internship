@@ -1,0 +1,13 @@
+==================================================
+SEMANTIC CACHE RESULT
+==================================================
+
+User Query          : Define Artificial Intelligence
+
+Matched Question    : Define Artificial Intelligence
+
+Similarity Score    : 1.0000
+
+Cached Response
+----------------------------------------
+Artificial Intelligence is the simulation of human intelligence.

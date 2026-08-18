@@ -1,0 +1,20 @@
+ROLE:
+Interviewer
+
+PROMPT:
+Ask me five Python interview questions.
+
+RESPONSE:
+I'd be happy to simulate a technical interview with you. Here's your first question:
+
+**Question 1:** Write a function that takes a list of integers as input and returns the sum of all even numbers in the list.
+
+Example:
+```
+input = [1, 2, 3, 4, 5, 6]
+output = 12 (because 2 + 4 + 6 = 12)
+```
+
+Please provide your solution. I'll evaluate it based on code quality, readability, and correctness.
+
+(Note: You can ask for clarification or more information about the problem if you need it.)

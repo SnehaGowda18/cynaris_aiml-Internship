@@ -1,0 +1,2 @@
+ChromaDB is an open-source vector database.
+Vector databases store embeddings.

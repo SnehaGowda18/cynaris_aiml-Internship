@@ -1,0 +1,31 @@
+
+==================================================
+LLM ROUTING STRATEGY
+==================================================
+
+LOCAL MODEL
+-----------
+• Greetings
+• Definitions
+• Simple Q&A
+• Small code examples
+• Basic calculations
+• FAQs
+
+API MODEL
+---------
+• Long document summarization
+• RAG applications
+• Complex reasoning
+• Report generation
+• Multi-step coding
+• Large context (>5K tokens)
+
+Expected Query Distribution
+---------------------------
+Local Model : 70%
+API Model   : 30%
+
+Estimated Cost Reduction
+------------------------
+60% - 80%

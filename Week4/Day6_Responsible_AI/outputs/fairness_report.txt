@@ -1,0 +1,49 @@
+# Model Card
+
+## Model Details
+
+- **Model:** Logistic Regression
+- **Framework:** Scikit-learn
+- **Task:** Binary Classification
+
+## Intended Use
+
+This model is developed for educational purposes to demonstrate binary classification and Responsible AI concepts.
+
+## Training Data
+
+- **Classification Model:** Breast Cancer Wisconsin Dataset
+- **Fairness Evaluation:** UCI Adult Income Dataset (IBM AIF360)
+
+## Evaluation Metrics
+
+- Accuracy: **0.96**
+- Precision: **0.96**
+- Recall: **0.96**
+- F1-Score: **0.96**
+
+## Fairness Evaluation
+
+The fairness of a machine learning dataset was evaluated using **IBM AI Fairness 360 (AIF360)** on the **UCI Adult Income Dataset**.
+
+**Fairness Metric:** Disparate Impact
+
+### Results
+
+- Before Reweighing: **0.363**
+- After Reweighing: **1.000**
+- Bias Improvement: **0.6365**
+
+### Observation
+
+The original dataset exhibited gender bias because the disparate impact was below the recommended threshold of **0.8**. After applying the **Reweighing** preprocessing algorithm, the disparate impact improved to **1.000**, demonstrating a significant reduction in demographic bias.
+
+## Ethical Considerations
+
+This project is intended for educational purposes only. The classification model should not be used for real-world medical diagnosis without expert validation. Fairness analysis demonstrates how bias can be measured and mitigated using IBM AIF360.
+
+## Limitations
+
+- Small classification dataset
+- Fairness analysis performed on a separate benchmark dataset
+- Results are intended for learning and demonstration purposes
