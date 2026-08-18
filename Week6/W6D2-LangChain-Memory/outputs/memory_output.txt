@@ -1,0 +1,33 @@
+============================================================
+W6D2 - CONVERSATION MEMORY OUTPUT
+============================================================
+
+Turn 1
+User: My name is Sneha.
+Assistant: Hello Sneha! It's nice to see you again. Is there something I can help you with today?
+------------------------------------------------------------
+
+Turn 2
+User: I am studying Information Science.
+Assistant: Hello Sneha, it's nice to see you again! I'm glad you're continuing your studies in Information Science. How can I assist you today? Do you need help with a specific topic or project you're working on?
+------------------------------------------------------------
+
+Turn 3
+User: What is my name?
+Assistant: Sneha, your name is Sneha! We were just catching up about your studies in Information Science. How can I assist you today?
+------------------------------------------------------------
+
+Turn 4
+User: What am I studying?
+Assistant: Hello Sneha! You're studying Information Science. Does that help?
+------------------------------------------------------------
+
+Turn 5
+User: What do you know about me from this conversation?
+Assistant: From our previous conversation, I know the following about you:
+
+* Your name is Sneha.
+* You are studying Information Science.
+
+That's all I have so far. If you'd like to share more or ask a question, I'm here to help!
+------------------------------------------------------------

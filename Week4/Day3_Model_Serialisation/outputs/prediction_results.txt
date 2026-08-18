@@ -1,0 +1,20 @@
+MODEL SERIALISATION RESULTS
+============================
+
+Accuracy : 0.9649
+
+Original == Joblib : True
+Original == Pickle : True
+
+Sample Predictions
+==================
+Sample 1: Actual=0 Prediction=0
+Sample 2: Actual=1 Prediction=1
+Sample 3: Actual=0 Prediction=0
+Sample 4: Actual=1 Prediction=1
+Sample 5: Actual=0 Prediction=0
+Sample 6: Actual=1 Prediction=1
+Sample 7: Actual=1 Prediction=1
+Sample 8: Actual=0 Prediction=0
+Sample 9: Actual=0 Prediction=0
+Sample 10: Actual=0 Prediction=0
