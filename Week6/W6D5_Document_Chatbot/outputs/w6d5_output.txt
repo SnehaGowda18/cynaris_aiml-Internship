@@ -1,0 +1,108 @@
+W6D5 - DOCUMENT CHATBOT WITH LANGCHAIN
+============================================================
+
+============================================================
+W6D5 - DOCUMENT CHATBOT WITH LANGCHAIN
+============================================================
+Model: llama3.2:3b
+
+
+============================================================
+PART 1: LANGCHAIN CHAIN
+============================================================
+
+Test 1
+Question: What is Python?
+Answer: Python is a high-level, interpreted programming language that is widely used for various applications such as web development, data analysis, artificial intelligence, and more. It is known for its simplicity, readability, and ease of use, making it a popular choice among beginners and experienced programmers alike.
+
+Test 2
+Question: What is Machine Learning?
+Answer: Machine Learning (ML) is a subset of Artificial Intelligence (AI) that enables computers to learn from data and improve their performance on a specific task without being explicitly programmed.
+
+Test 3
+Question: What is LangChain?
+Answer: LangChain is an open-source framework that enables developers to build blockchain-based applications by integrating with existing tools and services. It provides a set of libraries and APIs for interacting with blockchain networks, such as Web3, Ethereum, and others. LangChain aims to simplify the development of blockchain-based applications by providing a unified interface to various blockchain protocols.
+
+Test 4
+Question: What is a vector database?
+Answer: A vector database is a type of database that stores and manages vectors, which are mathematical representations of objects or data points, typically in a multidimensional space. Unlike traditional databases that store data in structured rows and columns, vector databases store data in a dense, vectorized format, enabling efficient querying and similarity searches.
+
+Test 5
+Question: What is RAG?
+Answer: RAG can refer to several things:
+
+1. RAG (Record Association Group): A UK-based charity that supports people who struggle with alcohol and other drug issues.
+2. RAG (Research and Applications Group): A UK-based research organization that focuses on materials science and engineering.
+3. RAG (Romanian American Games): An annual sports event for Romanian Americans in the United States.
+
+If you could provide more context, I can give a more specific answer.
+
+
+============================================================
+PART 2: CONVERSATION MEMORY
+============================================================
+
+Turn 1
+User: My name is Sneha.
+Assistant: Hello Sneha! It's nice to chat with you again. Since our previous conversation ended, I don't have any specific information to recall about our previous conversation. However, I do remember that you introduced yourself as Sneha, and I'm happy to start a new conversation with you. How can I assist you today, Sneha?
+
+Turn 2
+User: What is my name?
+Assistant: Your name is Sneha.
+
+Turn 3
+User: I am learning Artificial Intelligence.
+Assistant: Hello Sneha!
+
+I'm glad you're learning about Artificial Intelligence (AI). That's a fascinating field that's constantly evolving and improving.
+
+As you learn about AI, you'll discover that it encompasses a broad range of topics, including machine learning, natural language processing, computer vision, and more. AI has many exciting applications, such as:
+
+1. Virtual assistants: Like me, you'll see AI-powered chatbots like myself helping users with various tasks.
+2. Image and speech recognition: AI can analyze and understand images and speech, enabling features like facial recognition, voice assistants, and self-driving cars.
+3. Healthcare: AI can help with disease diagnosis, personalized medicine, and predictive analytics.
+4. Robotics: AI enables robots to perform tasks that would be difficult or impossible for humans, such as assembly line work, surgery, and space exploration.
+
+As you continue learning about AI, you'll find many opportunities to apply your knowledge and make a positive impact in various industries and aspects of life.
+
+What specific aspect of AI would you like to explore further, Sneha?
+
+Turn 4
+User: What am I learning?
+Assistant: You are learning about Artificial Intelligence (AI).
+
+Turn 5
+User: What is my name and what am I learning?
+Assistant: Hello Sneha! I can answer your question clearly now.
+
+Your name is Sneha, and you are learning about Artificial Intelligence (AI).
+
+
+============================================================
+PART 3: AGENT WITH TWO TOOLS
+============================================================
+
+Agent Task 1
+
+Task: 25 * 4
+Selected Tool: Calculator
+Result: 100
+
+Agent Task 2
+
+Task: 150 / 5 + 10
+Selected Tool: Calculator
+Result: 40.0
+
+Agent Task 3
+
+Task: What is LangChain?
+Selected Tool: Web Search Stub
+Result: Search result for 'What is LangChain?': LangChain is a framework used to build applications powered by language models.
+
+
+============================================================
+W6D5 COMPLETED SUCCESSFULLY
+============================================================
+
+Output saved to: outputs\w6d5_output.txt
