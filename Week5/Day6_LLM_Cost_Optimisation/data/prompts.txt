@@ -1,0 +1,10 @@
+What is AI?
+
+Explain machine learning.
+
+Explain deep learning in detail with examples and applications in healthcare, banking, agriculture, robotics and autonomous vehicles.
+
+Summarize the following paragraph:
+Artificial Intelligence is transforming industries by automating repetitive tasks, improving decision making and enhancing customer experience.
+
+Write a detailed report about climate change, renewable energy, carbon emissions, government policies, global warming, sustainable development goals, future technologies, electric vehicles, solar power, wind energy and green computing.

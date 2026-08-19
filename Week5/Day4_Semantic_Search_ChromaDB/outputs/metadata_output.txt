@@ -1,0 +1,3 @@
+ChromaDB stores vector embeddings for search applications.
+FAISS is a library for efficient similarity search.
+Vector databases store and retrieve embeddings.

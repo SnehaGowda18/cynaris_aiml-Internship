@@ -1,0 +1,6 @@
+tiktoken
+sentence-transformers
+numpy
+pandas
+scikit-learn
+llmlingua
