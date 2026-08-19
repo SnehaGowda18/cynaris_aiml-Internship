@@ -1,0 +1,7 @@
+BM25 vs DENSE RETRIEVAL COMPARISON
+======================================================================
+
+BM25 Precision: 100.00%
+Dense Precision: 100.00%
+Precision Difference: 0.00%
+Better Retrieval Method: Both
