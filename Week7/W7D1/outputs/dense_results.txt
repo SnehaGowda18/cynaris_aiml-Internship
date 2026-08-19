@@ -1,0 +1,110 @@
+DENSE RETRIEVAL RESULTS
+======================================================================
+
+Question 1: What is artificial intelligence?
+Expected: document1.pdf
+Rank 1 | Score: 0.8180 | Source: document1.pdf
+Content: Artificial Intelligence Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence. AI systems can perform tasks such as reasoning, learning, problem solving, speech recognition, image understanding, and decision making. Machine learning is an important part of artificial intelligence. Instead of
+Rank 2 | Score: 0.4367 | Source: document2.pdf
+Content: Machine Learning Machine Learning is a branch of artificial intelligence that enables computers to learn patterns from data and make predictions or decisions. The three common types of machine learning are supervised learning, unsupervised learning, and reinforcement learning. Supervised learning uses labeled training data. Examples include linear regression, logistic regression, decision trees, r
+Rank 3 | Score: 0.4024 | Source: document3.pdf
+Content: Deep Learning Deep Learning is a subset of machine learning that uses artificial neural networks with multiple layers. Deep learning models can automatically learn complex representations from large amounts of data. Convolutional Neural Networks (CNNs) are commonly used for image processing and computer vision. Recurrent Neural Networks (RNNs) and transformer architectures can be used for sequenti
+Correct retrieval: YES
+
+Question 2: What are the types of machine learning?
+Expected: document2.pdf
+Rank 1 | Score: 0.7476 | Source: document2.pdf
+Content: Machine Learning Machine Learning is a branch of artificial intelligence that enables computers to learn patterns from data and make predictions or decisions. The three common types of machine learning are supervised learning, unsupervised learning, and reinforcement learning. Supervised learning uses labeled training data. Examples include linear regression, logistic regression, decision trees, r
+Rank 2 | Score: 0.5304 | Source: document1.pdf
+Content: Artificial Intelligence Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence. AI systems can perform tasks such as reasoning, learning, problem solving, speech recognition, image understanding, and decision making. Machine learning is an important part of artificial intelligence. Instead of
+Rank 3 | Score: 0.4536 | Source: document3.pdf
+Content: Deep Learning Deep Learning is a subset of machine learning that uses artificial neural networks with multiple layers. Deep learning models can automatically learn complex representations from large amounts of data. Convolutional Neural Networks (CNNs) are commonly used for image processing and computer vision. Recurrent Neural Networks (RNNs) and transformer architectures can be used for sequenti
+Correct retrieval: YES
+
+Question 3: What is supervised learning?
+Expected: document2.pdf
+Rank 1 | Score: 0.6373 | Source: document2.pdf
+Content: Machine Learning Machine Learning is a branch of artificial intelligence that enables computers to learn patterns from data and make predictions or decisions. The three common types of machine learning are supervised learning, unsupervised learning, and reinforcement learning. Supervised learning uses labeled training data. Examples include linear regression, logistic regression, decision trees, r
+Rank 2 | Score: 0.4346 | Source: document1.pdf
+Content: Artificial Intelligence Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence. AI systems can perform tasks such as reasoning, learning, problem solving, speech recognition, image understanding, and decision making. Machine learning is an important part of artificial intelligence. Instead of
+Rank 3 | Score: 0.3486 | Source: document3.pdf
+Content: Deep Learning Deep Learning is a subset of machine learning that uses artificial neural networks with multiple layers. Deep learning models can automatically learn complex representations from large amounts of data. Convolutional Neural Networks (CNNs) are commonly used for image processing and computer vision. Recurrent Neural Networks (RNNs) and transformer architectures can be used for sequenti
+Correct retrieval: YES
+
+Question 4: What are convolutional neural networks used for?
+Expected: document3.pdf
+Rank 1 | Score: 0.6527 | Source: document3.pdf
+Content: Deep Learning Deep Learning is a subset of machine learning that uses artificial neural networks with multiple layers. Deep learning models can automatically learn complex representations from large amounts of data. Convolutional Neural Networks (CNNs) are commonly used for image processing and computer vision. Recurrent Neural Networks (RNNs) and transformer architectures can be used for sequenti
+Rank 2 | Score: 0.3569 | Source: document1.pdf
+Content: Artificial Intelligence Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence. AI systems can perform tasks such as reasoning, learning, problem solving, speech recognition, image understanding, and decision making. Machine learning is an important part of artificial intelligence. Instead of
+Rank 3 | Score: 0.3494 | Source: document2.pdf
+Content: Machine Learning Machine Learning is a branch of artificial intelligence that enables computers to learn patterns from data and make predictions or decisions. The three common types of machine learning are supervised learning, unsupervised learning, and reinforcement learning. Supervised learning uses labeled training data. Examples include linear regression, logistic regression, decision trees, r
+Correct retrieval: YES
+
+Question 5: What is deep learning?
+Expected: document3.pdf
+Rank 1 | Score: 0.7471 | Source: document3.pdf
+Content: Deep Learning Deep Learning is a subset of machine learning that uses artificial neural networks with multiple layers. Deep learning models can automatically learn complex representations from large amounts of data. Convolutional Neural Networks (CNNs) are commonly used for image processing and computer vision. Recurrent Neural Networks (RNNs) and transformer architectures can be used for sequenti
+Rank 2 | Score: 0.5295 | Source: document1.pdf
+Content: Artificial Intelligence Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence. AI systems can perform tasks such as reasoning, learning, problem solving, speech recognition, image understanding, and decision making. Machine learning is an important part of artificial intelligence. Instead of
+Rank 3 | Score: 0.4913 | Source: document2.pdf
+Content: Machine Learning Machine Learning is a branch of artificial intelligence that enables computers to learn patterns from data and make predictions or decisions. The three common types of machine learning are supervised learning, unsupervised learning, and reinforcement learning. Supervised learning uses labeled training data. Examples include linear regression, logistic regression, decision trees, r
+Correct retrieval: YES
+
+Question 6: What is natural language processing?
+Expected: document4.pdf
+Rank 1 | Score: 0.7265 | Source: document4.pdf
+Content: Natural Language Processing Natural Language Processing (NLP) is a field of artificial intelligence that enables computers to understand, process, and generate human language. Common NLP tasks include text classification, sentiment analysis, named entity recognition, machine translation, question answering, and summarization. Tokenization divides text into smaller units called tokens. Embeddings r
+Rank 2 | Score: 0.4175 | Source: document5.pdf
+Content: Generative AI Generative AI refers to artificial intelligence systems that can create new content such as text, images, audio, video, and code. Large Language Models (LLMs) are generative AI models trained on large collections of text. Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. A retrieval system first finds relevant documents and then provides th
+Rank 3 | Score: 0.3821 | Source: document1.pdf
+Content: Artificial Intelligence Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence. AI systems can perform tasks such as reasoning, learning, problem solving, speech recognition, image understanding, and decision making. Machine learning is an important part of artificial intelligence. Instead of
+Correct retrieval: YES
+
+Question 7: What are embeddings in NLP?
+Expected: document4.pdf
+Rank 1 | Score: 0.6246 | Source: document4.pdf
+Content: Natural Language Processing Natural Language Processing (NLP) is a field of artificial intelligence that enables computers to understand, process, and generate human language. Common NLP tasks include text classification, sentiment analysis, named entity recognition, machine translation, question answering, and summarization. Tokenization divides text into smaller units called tokens. Embeddings r
+Rank 2 | Score: 0.4331 | Source: document5.pdf
+Content: Generative AI Generative AI refers to artificial intelligence systems that can create new content such as text, images, audio, video, and code. Large Language Models (LLMs) are generative AI models trained on large collections of text. Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. A retrieval system first finds relevant documents and then provides th
+Rank 3 | Score: 0.3353 | Source: document3.pdf
+Content: Deep Learning Deep Learning is a subset of machine learning that uses artificial neural networks with multiple layers. Deep learning models can automatically learn complex representations from large amounts of data. Convolutional Neural Networks (CNNs) are commonly used for image processing and computer vision. Recurrent Neural Networks (RNNs) and transformer architectures can be used for sequenti
+Correct retrieval: YES
+
+Question 8: What is generative AI?
+Expected: document5.pdf
+Rank 1 | Score: 0.5623 | Source: document5.pdf
+Content: Generative AI Generative AI refers to artificial intelligence systems that can create new content such as text, images, audio, video, and code. Large Language Models (LLMs) are generative AI models trained on large collections of text. Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. A retrieval system first finds relevant documents and then provides th
+Rank 2 | Score: 0.5462 | Source: document1.pdf
+Content: Artificial Intelligence Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence. AI systems can perform tasks such as reasoning, learning, problem solving, speech recognition, image understanding, and decision making. Machine learning is an important part of artificial intelligence. Instead of
+Rank 3 | Score: 0.4034 | Source: document3.pdf
+Content: Deep Learning Deep Learning is a subset of machine learning that uses artificial neural networks with multiple layers. Deep learning models can automatically learn complex representations from large amounts of data. Convolutional Neural Networks (CNNs) are commonly used for image processing and computer vision. Recurrent Neural Networks (RNNs) and transformer architectures can be used for sequenti
+Correct retrieval: YES
+
+Question 9: What is retrieval augmented generation?
+Expected: document5.pdf
+Rank 1 | Score: 0.5254 | Source: document5.pdf
+Content: Generative AI Generative AI refers to artificial intelligence systems that can create new content such as text, images, audio, video, and code. Large Language Models (LLMs) are generative AI models trained on large collections of text. Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. A retrieval system first finds relevant documents and then provides th
+Rank 2 | Score: 0.2018 | Source: document4.pdf
+Content: Natural Language Processing Natural Language Processing (NLP) is a field of artificial intelligence that enables computers to understand, process, and generate human language. Common NLP tasks include text classification, sentiment analysis, named entity recognition, machine translation, question answering, and summarization. Tokenization divides text into smaller units called tokens. Embeddings r
+Rank 3 | Score: 0.1475 | Source: document1.pdf
+Content: Artificial Intelligence Artificial Intelligence (AI) is a field of computer science that focuses on creating systems capable of performing tasks that normally require human intelligence. AI systems can perform tasks such as reasoning, learning, problem solving, speech recognition, image understanding, and decision making. Machine learning is an important part of artificial intelligence. Instead of
+Correct retrieval: YES
+
+Question 10: What are large language models?
+Expected: document5.pdf
+Rank 1 | Score: 0.4323 | Source: document5.pdf
+Content: Generative AI Generative AI refers to artificial intelligence systems that can create new content such as text, images, audio, video, and code. Large Language Models (LLMs) are generative AI models trained on large collections of text. Retrieval-Augmented Generation (RAG) combines information retrieval with language generation. A retrieval system first finds relevant documents and then provides th
+Rank 2 | Score: 0.3564 | Source: document4.pdf
+Content: Natural Language Processing Natural Language Processing (NLP) is a field of artificial intelligence that enables computers to understand, process, and generate human language. Common NLP tasks include text classification, sentiment analysis, named entity recognition, machine translation, question answering, and summarization. Tokenization divides text into smaller units called tokens. Embeddings r
+Rank 3 | Score: 0.3183 | Source: document3.pdf
+Content: Deep Learning Deep Learning is a subset of machine learning that uses artificial neural networks with multiple layers. Deep learning models can automatically learn complex representations from large amounts of data. Convolutional Neural Networks (CNNs) are commonly used for image processing and computer vision. Recurrent Neural Networks (RNNs) and transformer architectures can be used for sequenti
+Correct retrieval: YES
+
+
+======================================================================
+DENSE RETRIEVAL EVALUATION
+======================================================================
+Correct retrievals: 10
+Total questions: 10
+Precision: 100.00%
