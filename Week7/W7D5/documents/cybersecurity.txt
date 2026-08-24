@@ -1,0 +1,1 @@
+Cybersecurity protects computer systems, networks, applications, and data from unauthorized access and attacks. Common threats include phishing, malware, SQL injection, denial of service, and password attacks.
