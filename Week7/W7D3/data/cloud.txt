@@ -1,0 +1,1 @@
+Cloud computing provides computing resources such as servers, storage, databases, and applications through the internet. The main cloud service models are Infrastructure as a Service, Platform as a Service, and Software as a Service.

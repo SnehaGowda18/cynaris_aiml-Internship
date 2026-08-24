@@ -1,0 +1,1 @@
+MLOps combines machine learning development and operations practices. It focuses on automation, reproducibility, model deployment, monitoring, versioning, and continuous improvement of machine learning systems.
