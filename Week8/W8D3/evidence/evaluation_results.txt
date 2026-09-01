@@ -1,0 +1,46 @@
+W8D3 — BM25 vs Dense Retrieval Evaluation
+============================================================
+
+Question 1: What is machine learning?
+BM25 Precision@3: 0.33
+Dense Precision@3: 0.67
+
+Question 2: What is artificial intelligence?
+BM25 Precision@3: 0.33
+Dense Precision@3: 0.67
+
+Question 3: What is deep learning?
+BM25 Precision@3: 0.67
+Dense Precision@3: 1.00
+
+Question 4: What is natural language processing?
+BM25 Precision@3: 0.33
+Dense Precision@3: 0.67
+
+Question 5: What is a neural network?
+BM25 Precision@3: 0.67
+Dense Precision@3: 1.00
+
+Question 6: What is supervised learning?
+BM25 Precision@3: 0.33
+Dense Precision@3: 0.67
+
+Question 7: What is unsupervised learning?
+BM25 Precision@3: 0.33
+Dense Precision@3: 0.33
+
+Question 8: What is reinforcement learning?
+BM25 Precision@3: 0.67
+Dense Precision@3: 0.33
+
+Question 9: What is model evaluation?
+BM25 Precision@3: 0.67
+Dense Precision@3: 0.33
+
+Question 10: What is retrieval augmented generation?
+BM25 Precision@3: 0.33
+Dense Precision@3: 0.33
+
+Average BM25 Precision@3: 0.47
+Average Dense Precision@3: 0.60
+Better retrieval method: Dense Retrieval
