@@ -1,0 +1,4 @@
+Artificial intelligence is a field of computer science focused on
+creating systems capable of performing tasks that normally require
+human intelligence. These tasks include reasoning, learning,
+problem solving, perception and language understanding.

@@ -1,0 +1,21 @@
+
+--- Document 1 ---
+
+Retrieval Augmented Generation, or RAG, combines information retrieval
+with generative language models. A RAG system first retrieves relevant
+documents from a knowledge base and then provides those documents to
+an LLM as context for generating an answer.
+
+--- Document 2 ---
+
+Artificial intelligence is a field of computer science focused on
+creating systems capable of performing tasks that normally require
+human intelligence. These tasks include reasoning, learning,
+problem solving, perception and language understanding.
+
+--- Document 3 ---
+
+MLOps combines machine learning development with software engineering
+and operations practices. It focuses on reproducibility, testing,
+deployment, monitoring, version control and continuous improvement of
+machine learning systems.

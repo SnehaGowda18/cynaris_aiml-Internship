@@ -1,0 +1,4 @@
+MLOps combines machine learning development with software engineering
+and operations practices. It focuses on reproducibility, testing,
+deployment, monitoring, version control and continuous improvement of
+machine learning systems.
