@@ -1,0 +1,2 @@
+W11D5 RAG Evaluation Results
+{'faithfulness': 1.0000, 'answer_relevancy': 1.0000}
