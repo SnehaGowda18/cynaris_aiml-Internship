@@ -1,0 +1,16 @@
+Artificial intelligence in healthcare can support diagnosis,
+medical image analysis, drug discovery, and patient monitoring.
+
+AI can analyze medical images such as X-rays, CT scans,
+and MRI scans to help identify possible abnormalities.
+
+Natural language processing helps healthcare systems
+extract useful information from medical records and reports.
+
+AI is designed to support healthcare professionals.
+Doctors and other medical professionals remain responsible
+for clinical decisions.
+
+Challenges of AI in healthcare include data privacy,
+bias, limited data quality, security risks, and
+the need for human oversight.
