@@ -1,0 +1,34 @@
+
+Artificial intelligence in healthcare can improve diagnosis, treatment planning,
+patient monitoring, medical research, and administrative work.
+
+AI is used in medical image analysis to identify patterns in X-rays, CT scans,
+MRI scans, ultrasound images, and pathology slides. It can support doctors by
+detecting possible abnormalities.
+
+Natural language processing in healthcare can process clinical notes, medical
+records, discharge summaries, research papers, and patient messages.
+
+AI does not completely replace healthcare professionals. Doctors and nurses
+provide clinical judgment, empathy, ethical decisions, communication, and
+responsibility for patient care.
+
+Benefits of AI in healthcare include faster analysis, improved workflow,
+early detection of disease, personalized treatment, and reduced administrative
+work.
+
+Challenges of healthcare AI include privacy risks, biased training data,
+lack of explainability, security threats, incorrect predictions, and the need
+for human supervision.
+
+Healthcare AI systems must protect patient information through access control,
+encryption, secure storage, and privacy-preserving practices.
+
+Machine learning models require representative and high-quality healthcare
+data. Poor-quality or biased data can produce unreliable results.
+
+AI can support drug discovery by analyzing biological data, predicting
+molecular properties, and identifying possible drug candidates.
+
+Remote patient monitoring systems can use AI to analyze vital signs and
+identify unusual patterns that may require medical attention.
