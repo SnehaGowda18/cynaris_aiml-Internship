@@ -1,0 +1,62 @@
+Artificial Intelligence
+
+Artificial Intelligence (AI) is the field of computer science focused on
+creating systems that can perform tasks requiring human-like intelligence.
+Common AI applications include recommendation systems, speech recognition,
+computer vision, and natural language processing.
+
+Machine Learning
+
+Machine Learning (ML) is a subset of Artificial Intelligence. It enables
+computers to learn patterns from data and make predictions without being
+explicitly programmed for every task. Supervised, unsupervised, and
+reinforcement learning are common types of machine learning.
+
+Deep Learning
+
+Deep Learning is a subset of machine learning that uses neural networks
+with multiple layers. It is commonly used for image recognition, speech
+processing, natural language processing, and generative AI.
+
+Natural Language Processing
+
+Natural Language Processing (NLP) enables computers to understand,
+process, and generate human language. Applications include translation,
+sentiment analysis, chatbots, summarisation, and question answering.
+
+Retrieval Augmented Generation
+
+Retrieval Augmented Generation (RAG) combines information retrieval with
+large language models. A RAG system retrieves relevant documents from a
+knowledge base and provides them as context to an LLM before generating
+an answer.
+
+Vector Database
+
+A vector database stores numerical representations called embeddings.
+These embeddings allow systems to perform similarity searches and retrieve
+documents that are semantically related to a query.
+
+ChromaDB
+
+ChromaDB is a vector database commonly used in AI applications. It can
+store document embeddings and retrieve similar documents using vector
+similarity search.
+
+Embeddings
+
+Embeddings are numerical representations of text, images, or other data.
+Similar items have similar vector representations, allowing semantic
+similarity searches.
+
+Large Language Models
+
+Large Language Models (LLMs) are neural network models trained on large
+amounts of text data. They can perform tasks such as question answering,
+summarisation, text generation, and reasoning.
+
+RAG Evaluation
+
+RAG evaluation measures the quality of a retrieval-augmented generation
+system. Important evaluation dimensions include faithfulness,
+answer relevancy, context precision, and context recall.

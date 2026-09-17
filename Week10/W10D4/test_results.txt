@@ -1,0 +1,45 @@
+W10D4: Human-in-the-Loop with LangGraph
+========================================
+
+Test 1
+Input: What is artificial intelligence?
+Classification: question
+Route: answer_question
+Human decision: approve
+Result: Approved
+
+Test 2
+Input: Explain LangGraph.
+Classification: question
+Route: answer_question
+Human decision: approve
+Result: Approved
+
+Test 3
+Input: Write a Python program.
+Classification: task
+Route: perform_task
+Human decision: approve
+Result: Approved
+
+Test 4
+Input: Create a study plan.
+Classification: task
+Route: perform_task
+Human decision: approve
+Result: Approved
+
+Test 5
+Input: What is machine learning?
+Classification: question
+Route: answer_question
+Human decision: approve
+Result: Approved
+
+Verification
+============
+All five tests completed successfully.
+Conditional routing verified.
+Human-in-the-loop interrupt tested.
+Pause and resume verified.
+All five inputs approved.

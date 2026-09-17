@@ -1,0 +1,25 @@
+RAG, or Retrieval-Augmented Generation, is a technique used in modern
+AI applications. RAG retrieves relevant information from a knowledge
+base and provides that information to a language model.
+
+ChromaDB is a vector database that can store embeddings and retrieve
+documents based on semantic similarity. Embeddings represent text as
+numerical vectors.
+
+Cosine similarity is commonly used to compare embeddings. It measures
+the similarity between vectors based on the angle between them.
+
+Ollama allows large language models to run locally. LangChain provides
+components for building applications using language models.
+
+A typical RAG pipeline contains several steps. First, documents are
+loaded. Next, documents are divided into smaller chunks. Each chunk is
+converted into an embedding and stored in a vector database.
+
+When a user asks a question, the question is converted into an
+embedding. The vector database retrieves the most relevant chunks.
+These chunks are then provided as context to a language model.
+
+The language model generates an answer using the retrieved context.
+This approach can reduce hallucinations and allow an AI system to
+answer questions using a specific knowledge base.

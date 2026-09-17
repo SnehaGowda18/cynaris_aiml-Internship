@@ -1,0 +1,1 @@
+Artificial Intelligence is the field of building systems that can perform tasks that normally require human intelligence. AI applications include computer vision, natural language processing, recommendation systems, and autonomous systems.

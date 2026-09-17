@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What are the benefits of AI in healthcare?",
+        "answer": "The benefits of AI in healthcare include:\n\n1. Faster diagnosis\n2. Personalized treatment\n3. Reduced administrative work\n4. Continuous patient monitoring",
+        "contexts": [
+            "Important benefits of AI in healthcare include faster diagnosis, personalized treatment, reduced administrative work, and continuous patient monitoring.\n\nChallenges include data privacy, biased datasets, incorrect predictions, and the need for human supervision.",
+            "AI does not replace healthcare professionals. It supports doctors and medical staff by providing useful information and improving decision-making.",
+            "Artificial Intelligence in Healthcare\n\nArtificial Intelligence (AI) is used in healthcare to support diagnosis, treatment, and patient monitoring.\n\nMachine learning models can analyze medical images such as X-rays, CT scans, and MRI scans to identify possible abnormalities."
+        ],
+        "ground_truth": "AI provides faster diagnosis, personalized treatment, reduced administrative work, and continuous patient monitoring."
+    },
+    {
+        "question": "How is AI used in medical image analysis?",
+        "answer": "Machine learning models can analyze medical images such as X-rays, CT scans, and MRI scans to identify possible abnormalities.",
+        "contexts": [
+            "Artificial Intelligence in Healthcare\n\nArtificial Intelligence (AI) is used in healthcare to support diagnosis, treatment, and patient monitoring.\n\nMachine learning models can analyze medical images such as X-rays, CT scans, and MRI scans to identify possible abnormalities.",
+            "Important benefits of AI in healthcare include faster diagnosis, personalized treatment, reduced administrative work, and continuous patient monitoring.\n\nChallenges include data privacy, biased datasets, incorrect predictions, and the need for human supervision.",
+            "AI does not replace healthcare professionals. It supports doctors and medical staff by providing useful information and improving decision-making."
+        ],
+        "ground_truth": "Machine learning models analyze X-rays, CT scans, and MRI scans to identify possible abnormalities."
+    },
+    {
+        "question": "What is the role of NLP in healthcare?",
+        "answer": "NLP helps healthcare systems understand medical records, clinical notes, and patient questions.",
+        "contexts": [
+            "Natural Language Processing (NLP) helps healthcare systems understand medical records, clinical notes, and patient questions.\n\nAI-based systems can predict patient risks by analyzing medical history, laboratory results, and vital signs.",
+            "AI does not replace healthcare professionals. It supports doctors and medical staff by providing useful information and improving decision-making.",
+            "Important benefits of AI in healthcare include faster diagnosis, personalized treatment, reduced administrative work, and continuous patient monitoring.\n\nChallenges include data privacy, biased datasets, incorrect predictions, and the need for human supervision."
+        ],
+        "ground_truth": "NLP helps healthcare systems understand medical records, clinical notes, and patient questions."
+    },
+    {
+        "question": "Does AI replace healthcare professionals?",
+        "answer": "No, AI does not replace healthcare professionals. It supports doctors and medical staff by providing useful information and improving decision-making.",
+        "contexts": [
+            "AI does not replace healthcare professionals. It supports doctors and medical staff by providing useful information and improving decision-making.",
+            "Important benefits of AI in healthcare include faster diagnosis, personalized treatment, reduced administrative work, and continuous patient monitoring.\n\nChallenges include data privacy, biased datasets, incorrect predictions, and the need for human supervision.",
+            "Artificial Intelligence in Healthcare\n\nArtificial Intelligence (AI) is used in healthcare to support diagnosis, treatment, and patient monitoring.\n\nMachine learning models can analyze medical images such as X-rays, CT scans, and MRI scans to identify possible abnormalities."
+        ],
+        "ground_truth": "AI does not replace healthcare professionals. It supports doctors and medical staff in decision-making."
+    },
+    {
+        "question": "What are the challenges of AI in healthcare?",
+        "answer": "The challenges of AI in healthcare include data privacy, biased datasets, incorrect predictions, and the need for human supervision.",
+        "contexts": [
+            "Important benefits of AI in healthcare include faster diagnosis, personalized treatment, reduced administrative work, and continuous patient monitoring.\n\nChallenges include data privacy, biased datasets, incorrect predictions, and the need for human supervision.",
+            "AI does not replace healthcare professionals. It supports doctors and medical staff by providing useful information and improving decision-making.",
+            "Artificial Intelligence in Healthcare\n\nArtificial Intelligence (AI) is used in healthcare to support diagnosis, treatment, and patient monitoring.\n\nMachine learning models can analyze medical images such as X-rays, CT scans, and MRI scans to identify possible abnormalities."
+        ],
+        "ground_truth": "Challenges include data privacy, biased datasets, incorrect predictions, and the need for human supervision."
+    },
+    {
+        "question": "How does AI support patient monitoring?",
+        "answer": "AI supports patient monitoring by providing continuous monitoring, but the exact method is not specified in the context.",
+        "contexts": [
+            "Important benefits of AI in healthcare include faster diagnosis, personalized treatment, reduced administrative work, and continuous patient monitoring.\n\nChallenges include data privacy, biased datasets, incorrect predictions, and the need for human supervision.",
+            "Artificial Intelligence in Healthcare\n\nArtificial Intelligence (AI) is used in healthcare to support diagnosis, treatment, and patient monitoring.\n\nMachine learning models can analyze medical images such as X-rays, CT scans, and MRI scans to identify possible abnormalities.",
+            "AI does not replace healthcare professionals. It supports doctors and medical staff by providing useful information and improving decision-making."
+        ],
+        "ground_truth": "AI supports continuous patient monitoring and can identify possible health risks using patient data."
+    },
+    {
+        "question": "How can AI improve personalized treatment?",
+        "answer": "AI can improve personalized treatment by analyzing medical history, laboratory results, and vital signs to predict patient risks, and by providing healthcare professionals with useful information to tailor treatment plans to individual patients.",
+        "contexts": [
+            "Important benefits of AI in healthcare include faster diagnosis, personalized treatment, reduced administrative work, and continuous patient monitoring.\n\nChallenges include data privacy, biased datasets, incorrect predictions, and the need for human supervision.",
+            "AI does not replace healthcare professionals. It supports doctors and medical staff by providing useful information and improving decision-making.",
+            "Natural Language Processing (NLP) helps healthcare systems understand medical records, clinical notes, and patient questions.\n\nAI-based systems can predict patient risks by analyzing medical history, laboratory results, and vital signs."
+        ],
+        "ground_truth": "AI helps provide personalized treatment by analyzing patient data and supporting treatment decisions."
+    },
+    {
+        "question": "What types of medical images can AI analyze?",
+        "answer": "X-rays, CT scans, and MRI scans.",
+        "contexts": [
+            "Artificial Intelligence in Healthcare\n\nArtificial Intelligence (AI) is used in healthcare to support diagnosis, treatment, and patient monitoring.\n\nMachine learning models can analyze medical images such as X-rays, CT scans, and MRI scans to identify possible abnormalities.",
+            "Important benefits of AI in healthcare include faster diagnosis, personalized treatment, reduced administrative work, and continuous patient monitoring.\n\nChallenges include data privacy, biased datasets, incorrect predictions, and the need for human supervision.",
+            "AI does not replace healthcare professionals. It supports doctors and medical staff by providing useful information and improving decision-making."
+        ],
+        "ground_truth": "AI can analyze X-rays, CT scans, and MRI scans to identify possible abnormalities."
+    },
+    {
+        "question": "How does AI help doctors make decisions?",
+        "answer": "AI helps doctors make decisions by providing useful information and improving decision-making.",
+        "contexts": [
+            "AI does not replace healthcare professionals. It supports doctors and medical staff by providing useful information and improving decision-making.",
+            "Important benefits of AI in healthcare include faster diagnosis, personalized treatment, reduced administrative work, and continuous patient monitoring.\n\nChallenges include data privacy, biased datasets, incorrect predictions, and the need for human supervision.",
+            "Artificial Intelligence in Healthcare\n\nArtificial Intelligence (AI) is used in healthcare to support diagnosis, treatment, and patient monitoring.\n\nMachine learning models can analyze medical images such as X-rays, CT scans, and MRI scans to identify possible abnormalities."
+        ],
+        "ground_truth": "AI provides useful information from patient data to support doctors and medical staff in decision-making."
+    },
+    {
+        "question": "Why is human supervision important in healthcare AI?",
+        "answer": "Human supervision is important in healthcare AI because of the need to correct incorrect predictions and ensure that the AI system is not biased, which can lead to inaccurate diagnoses or treatments.",
+        "contexts": [
+            "Important benefits of AI in healthcare include faster diagnosis, personalized treatment, reduced administrative work, and continuous patient monitoring.\n\nChallenges include data privacy, biased datasets, incorrect predictions, and the need for human supervision.",
+            "AI does not replace healthcare professionals. It supports doctors and medical staff by providing useful information and improving decision-making.",
+            "Artificial Intelligence in Healthcare\n\nArtificial Intelligence (AI) is used in healthcare to support diagnosis, treatment, and patient monitoring.\n\nMachine learning models can analyze medical images such as X-rays, CT scans, and MRI scans to identify possible abnormalities."
+        ],
+        "ground_truth": "Human supervision is important because AI systems may produce incorrect predictions and must be reviewed by healthcare professionals."
+    }
+]

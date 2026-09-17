@@ -1,0 +1,26 @@
+
+User: My name is Sneha.
+AI: Hello Sneha! It's nice to meet you. Is there something I can help you with or would you like to chat?
+
+User: What is my name?
+AI: Your name is Sneha. We just established that earlier!
+
+User: I am learning DevOps.
+AI: That's a great field to learn about, Sneha! DevOps is all about bridging the gap between development and operations teams to improve the speed, quality, and reliability of software releases.
+
+What specific areas of DevOps are you currently learning? Are you focusing on tools like Docker, Kubernetes, or Jenkins? Or perhaps you're exploring concepts like continuous integration, continuous delivery, and infrastructure as code?
+
+Feel free to ask me any questions or share your experiences, and I'll do my best to help!
+
+User: What am I learning?
+AI: You mentioned earlier that you are learning DevOps. You didn't specify what exactly you're learning, but it seems like you might be exploring the basics of DevOps, such as tools, concepts, and practices.
+
+If you'd like to share more about your current learning journey, I can try to help you with specific questions or topics!
+
+User: Can you summarize what you know about me?
+AI: Based on our conversation so far, here's a summary of what I know about you:
+
+* Your name is Sneha.
+* You're learning DevOps.
+
+That's the extent of my knowledge about you. If you'd like to share more about yourself or your interests, I'm all ears!

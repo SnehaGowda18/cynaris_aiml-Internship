@@ -1,0 +1,3 @@
+1. Artificial Intelligence is transforming healthcare.
+2. Python is popular for AI development.
+3. Generative AI creates new content.

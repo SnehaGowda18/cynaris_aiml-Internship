@@ -1,0 +1,6 @@
+haystack-ai
+fastapi
+uvicorn[standard]
+pypdf
+reportlab
+nltk>=3.9.1

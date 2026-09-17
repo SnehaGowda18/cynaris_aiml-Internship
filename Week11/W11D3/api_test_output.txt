@@ -1,0 +1,5 @@
+MLflow Model Serving
+Endpoint: http://127.0.0.1:5001/invocations
+Input: Iris flower measurements
+Prediction: 0
+Status: Successful

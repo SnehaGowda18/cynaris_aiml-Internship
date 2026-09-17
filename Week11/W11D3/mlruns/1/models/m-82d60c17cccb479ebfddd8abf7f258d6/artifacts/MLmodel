@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/USER/Desktop/Cynaris Intenship/Week11/W11D3/mlruns/1/models/m-82d60c17cccb479ebfddd8abf7f258d6/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.15.2
+model_id: m-82d60c17cccb479ebfddd8abf7f258d6
+model_size_bytes: 5473302
+model_uuid: m-82d60c17cccb479ebfddd8abf7f258d6
+prompts: null
+run_id: ab0a4df721974b4889dbd06356a668b8
+utc_time_created: '2026-09-11 09:36:58.620963'

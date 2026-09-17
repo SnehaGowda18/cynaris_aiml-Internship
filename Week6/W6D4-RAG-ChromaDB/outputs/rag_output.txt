@@ -1,0 +1,64 @@
+W6D4 - RAG PIPELINE OUTPUT
+============================================================
+
+QUESTION:
+What is RAG?
+
+TOP 3 RETRIEVED CHUNKS:
+============================================================
+
+CHUNK 1
+------------------------------------------------------------
+W6D4 RAG Pipeline 
+ 
+Retrieval-Augmented Generation, or RAG, is a technique used in 
+artificial intelligence applications. 
+ 
+RAG combines information retrieval with language generation. First, 
+documents are divided into smaller chunks. These chunks are 
+converted into numerical embeddings and stored in a vector database. 
+ 
+ChromaDB is a vector database that can store embeddings and retrieve 
+information based on semantic similarity. 
+ 
+Cosine similarity is commonly used to compare embeddings.
+
+CHUNK 2
+------------------------------------------------------------
+from the PDF. 
+3. Split the text into chunks. 
+4. Create embeddings for the chunks. 
+5. Store embeddings in ChromaDB. 
+6. Convert the user's question into an embedding. 
+7. Retrieve the three most relevant chunks. 
+8. Send the retrieved context to the language model. 
+9. Generate the final answer. 
+ 
+RAG is useful because it allows language models to answer questions 
+using information from a specific knowledge source.
+
+CHUNK 3
+------------------------------------------------------------
+similarity is commonly used to compare embeddings. It 
+measures how similar two vectors are based on the angle between 
+them. 
+ 
+Ollama allows large language models to run locally. In this project, 
+Ollama is used for both text embeddings and language generation. 
+ 
+The nomic-embed-text model is used to create embeddings. The 
+llama3.2:3b model is used to generate answers. 
+ 
+The RAG pipeline works as follows: 
+ 
+1. Load the PDF. 
+2. Extract text from the PDF. 
+3. Split the text into chunks. 
+4.
+
+
+FINAL ANSWER:
+============================================================
+The answer was found in the document. 
+
+RAG stands for Retrieval-Augmented Generation.

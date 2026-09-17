@@ -1,0 +1,7 @@
+@"
+chroma_baseline/
+chroma_db/
+chroma_optimized/
+__pycache__/
+.venv/
+"@ | Set-Content .gitignore

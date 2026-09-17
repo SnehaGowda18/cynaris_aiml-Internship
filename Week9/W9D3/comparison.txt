@@ -1,0 +1,31 @@
+@"
+W9D3 — Web Search Improvement Comparison
+
+Topic:
+Impact of Generative AI on Software Development
+
+BEFORE WEB SEARCH:
+The initial research crew generated a general report using the local Ollama LLM.
+The output was based primarily on the model's existing knowledge and did not
+actively retrieve current web information.
+
+AFTER WEB SEARCH:
+The updated research crew uses SerperDevTool for web search.
+The Researcher retrieves current information from the web before passing
+the findings to the Writer and Reviewer.
+
+IMPROVEMENTS:
+1. More current information
+2. Access to external web sources
+3. References included in the research output
+4. Better factual grounding
+5. More detailed real-world examples
+6. Improved research quality and credibility
+
+MULTI-AGENT FLOW:
+Researcher → Writer → Reviewer
+
+CONCLUSION:
+Adding web search improved the research pipeline by giving the Researcher
+access to current external information before the report was written and reviewed.
+"@ | Set-Content comparison.txt

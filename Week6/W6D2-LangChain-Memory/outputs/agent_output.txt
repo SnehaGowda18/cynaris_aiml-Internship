@@ -1,0 +1,21 @@
+============================================================
+W6D2 - AGENT TOOLS OUTPUT
+============================================================
+
+Task 1
+Tool: calculator
+Input: 25 * 4
+Result: 100
+------------------------------------------------------------
+
+Task 2
+Tool: calculator
+Input: 100 / 5 + 10
+Result: 30.0
+------------------------------------------------------------
+
+Task 3
+Tool: web_search
+Input: What is LangChain?
+Result: Web search result for 'What is LangChain?': This is a simulated web search result.
+------------------------------------------------------------

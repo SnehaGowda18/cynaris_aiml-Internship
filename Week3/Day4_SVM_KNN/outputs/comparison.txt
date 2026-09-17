@@ -1,0 +1,5 @@
+Week 3 Day 4 - Model Comparison
+
+SVM Accuracy : 0.9561
+KNN Accuracy : 0.9474
+Better Model : SVM

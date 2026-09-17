@@ -1,0 +1,3 @@
+Semantic search finds documents with similar meanings.
+FAISS is a library for efficient similarity search.
+ChromaDB stores vector embeddings for search applications.

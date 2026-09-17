@@ -1,0 +1,71 @@
+W9D4: CrewAI + LangChain — Hybrid Agent Systems
+================================================
+
+Task 1: LangChain Chain
+-----------------------
+Chain:
+PromptTemplate -> Ollama LLM -> StrOutputParser
+
+Five test inputs were successfully processed.
+
+1. What is artificial intelligence?
+2. What is machine learning?
+3. What is LangChain?
+4. What is an LLM?
+5. What is RAG?
+
+
+Task 2: Conversation Memory
+---------------------------
+Five conversation turns were successfully tested.
+
+Turn 1:
+User: My name is Sneha.
+AI: Hello Sneha, it's nice to meet you!
+
+Turn 2:
+User: What is my name?
+AI: Your name is Sneha.
+
+Turn 3:
+User: I am learning artificial intelligence.
+AI: The AI responded using the conversation context.
+
+Turn 4:
+User: What am I learning?
+AI: You're learning artificial intelligence!
+
+Turn 5:
+User: Can you summarize what you know about me from this conversation?
+AI: The AI summarized the information from previous turns.
+
+Conversation history was displayed successfully after all 5 turns.
+
+
+Task 3: Two-Tool Agent
+----------------------
+Tool 1: web_search
+Type: Web search stub
+
+Tool 2: calculator
+Type: Calculator
+
+Three tasks were successfully executed.
+
+Task 1:
+Input: What is LangChain?
+Output: Web search stub returned a search result.
+
+Task 2:
+Input: Calculate 25 * 4
+Output: 100
+
+Task 3:
+Input: Search for information about RAG
+Output: Web search stub returned a search result.
+
+
+Result
+------
+LangChain chain, conversation memory, and two-tool agent
+were successfully implemented and tested.

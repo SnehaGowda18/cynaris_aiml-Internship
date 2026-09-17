@@ -1,0 +1,15 @@
+Artificial Intelligence (AI) is the simulation of human intelligence by computers.
+
+Machine Learning is a subset of AI that enables systems to learn from data.
+
+Deep Learning uses neural networks with multiple hidden layers.
+
+Python is one of the most popular programming languages for AI because of its simple syntax and rich libraries.
+
+ChromaDB is a vector database used to store embeddings for semantic search.
+
+Ollama allows users to run large language models locally.
+
+Local LLMs provide better privacy because data never leaves your computer.
+
+Retrieval-Augmented Generation (RAG) combines document retrieval with language models to answer questions.

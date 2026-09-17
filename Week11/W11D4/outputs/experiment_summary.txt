@@ -1,0 +1,30 @@
+RAGAS RAG EVALUATION SUMMARY
+============================
+
+Total Q&A pairs generated: 10
+Questions evaluated: 2
+
+Baseline retrieval k: 2
+Optimized retrieval k: 1
+Chunk size: 400
+Chunk overlap: 50
+
+Baseline answer relevancy:
+0.6692
+
+Optimized answer relevancy:
+0.7057
+
+Baseline context recall:
+1.0000 for the evaluated medical image analysis question
+
+Optimized context precision:
+1.0000 for the evaluated healthcare benefits question
+
+The optimized configuration retrieved fewer chunks.
+Answer relevancy improved from 0.6692 to 0.7057.
+
+Some Ragas metrics returned NaN because the local Ollama
+evaluation model produced invalid JSON responses or timed out.
+Therefore, only the successfully calculated metric values
+were used in the comparison.

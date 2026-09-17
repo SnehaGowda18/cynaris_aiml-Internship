@@ -1,0 +1,10 @@
+langgraph
+langchain
+langchain-community
+langchain-ollama
+chromadb
+crewai
+mlflow
+ragas
+pytest
+python-dotenv

@@ -1,0 +1,31 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from fastapi.testclient import TestClient
+
+from app import app
+
+client = TestClient(app)
+
+
+def test_home():
+    response = client.get("/")
+    assert response.status_code == 200
+    assert response.json()["status"] == "healthy"
+
+
+def test_health():
+    response = client.get("/health")
+    assert response.status_code == 200
+
+
+def test_query():
+    response = client.post(
+        "/query",
+        json={"question": "What is RAG?"}
+    )
+
+    assert response.status_code == 200
+    assert response.json()["question"] == "What is RAG?"

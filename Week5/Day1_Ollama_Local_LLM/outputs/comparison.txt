@@ -1,0 +1,27 @@
+
+Model Comparison
+
+Questions:
+1. What is AI?
+2. Explain Neural Networks.
+3. What is MLOps?
+
+Llama3.2:3b
+-------------
+• Detailed explanations
+• Beginner-friendly
+• More examples
+
+Qwen2.5:3b
+------------
+• Short and concise
+• More technical
+• Better structured
+
+Conclusion
+----------
+Both models performed well.
+
+Llama3.2:3b is suitable for beginners because it explains concepts in more detail.
+
+Qwen2.5:3b gives shorter, structured, and technical responses, making it suitable for quick understanding.

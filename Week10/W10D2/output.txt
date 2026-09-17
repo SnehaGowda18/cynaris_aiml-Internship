@@ -1,0 +1,37 @@
+
+==================================================
+Test 1
+Input: Explain what DNS is
+Classification: question
+Response: This is a question. I will explain it clearly.
+Status: Completed
+
+==================================================
+Test 2
+Input: How does a router work?
+Classification: question
+Response: This is a question. I will explain it clearly.
+Status: Completed
+
+==================================================
+Test 3
+Input: Build a Python application
+Classification: task
+Response: This is a task. I will help you complete it.
+Status: Completed
+
+==================================================
+Test 4
+Input: Create a login page
+Classification: task
+Response: This is a task. I will help you complete it.
+Status: Completed
+
+==================================================
+Test 5
+Input: Tell me something interesting
+Status: Paused for human review
+Human input: Approved by human reviewer
+Classification: human_review
+Response: Human review completed. Instructions received: Approved by human reviewer
+Status: Completed
