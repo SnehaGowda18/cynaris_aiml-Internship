@@ -1,0 +1,128 @@
+W7D3 - LlamaIndex + ChromaDB Results
+======================================================================
+Documents loaded: 5
+Index creation time: 4.3986 seconds
+ChromaDB vectors: 5
+======================================================================
+
+======================================================================
+Query 1
+Question: What is artificial intelligence?
+Answer: Artificial intelligence is the field of building systems that can perform tasks that normally require human intelligence.
+Latency: 6.6773 seconds
+Sources retrieved: 2
+
+Source information:
+  Source 1: ai.txt | Score: 0.6003
+  Source 2: mlops.txt | Score: 0.3577
+
+======================================================================
+Query 2
+Question: What is cybersecurity?
+Answer: Cybersecurity refers to the practices and technologies used to protect computer systems, networks, and sensitive information from unauthorized access, use, disclosure, disruption, modification, or destruction.
+Latency: 11.1604 seconds
+Sources retrieved: 2
+
+Source information:
+  Source 1: cybersecurity.txt | Score: 0.4612
+  Source 2: cloud.txt | Score: 0.3680
+
+======================================================================
+Query 3
+Question: What is cloud computing?
+Answer: Cloud computing is a way to access and use various resources, such as servers, storage, databases, and applications, over the internet.
+Latency: 13.1168 seconds
+Sources retrieved: 2
+
+Source information:
+  Source 1: cloud.txt | Score: 0.5731
+  Source 2: ai.txt | Score: 0.3875
+
+======================================================================
+Query 4
+Question: What is MLOps?
+Answer: MLOps is a set of practices that combines machine learning development and operations to create more efficient and reliable systems. It emphasizes automation, reproducibility, and continuous improvement to ensure the success of machine learning projects.
+Latency: 17.2625 seconds
+Sources retrieved: 2
+
+Source information:
+  Source 1: mlops.txt | Score: 0.5967
+  Source 2: cloud.txt | Score: 0.3381
+
+======================================================================
+Query 5
+Question: What is Retrieval Augmented Generation?
+Answer: Retrieval Augmented Generation is a method that combines the retrieval of relevant information with the generation of a coherent answer. It involves using a knowledge base to retrieve relevant documents and then using a language model to generate a response based on the retrieved information.
+Latency: 18.4592 seconds
+Sources retrieved: 2
+
+Source information:
+  Source 1: rag.txt | Score: 0.5441
+  Source 2: ai.txt | Score: 0.4277
+
+======================================================================
+Query 6
+Question: What are common cybersecurity threats?
+Answer: Cybersecurity threats can take many forms, including malware, phishing attacks, and unauthorized access to systems and data. Additionally, threats such as denial-of-service attacks, ransomware, and insider threats are also prevalent.
+Latency: 12.4225 seconds
+Sources retrieved: 2
+
+Source information:
+  Source 1: cybersecurity.txt | Score: 0.4840
+  Source 2: cloud.txt | Score: 0.3973
+
+======================================================================
+Query 7
+Question: What are the main cloud service models?
+Answer: There are three main cloud service models: Infrastructure as a Service, Platform as a Service, and Software as a Service.
+Latency: 12.9237 seconds
+Sources retrieved: 2
+
+Source information:
+  Source 1: cloud.txt | Score: 0.5709
+  Source 2: mlops.txt | Score: 0.3846
+
+======================================================================
+Query 8
+Question: What does MLOps focus on?
+Answer: MLOps focuses on automation, reproducibility, model deployment, monitoring, versioning, and continuous improvement of machine learning systems.
+Latency: 13.3903 seconds
+Sources retrieved: 2
+
+Source information:
+  Source 1: mlops.txt | Score: 0.5701
+  Source 2: ai.txt | Score: 0.3405
+
+======================================================================
+Query 9
+Question: How does RAG work?
+Answer: RAG works by first identifying relevant documents from a knowledge base. It then uses these documents to inform a language model, which generates a response based on the retrieved information. This approach allows the system to produce answers that are grounded in existing knowledge, rather than relying solely on the model's internal understanding.
+Latency: 20.9870 seconds
+Sources retrieved: 2
+
+Source information:
+  Source 1: rag.txt | Score: 0.5059
+  Source 2: mlops.txt | Score: 0.3117
+
+======================================================================
+Query 10
+Question: What are common applications of artificial intelligence?
+Answer: Computer vision, natural language processing, recommendation systems, and autonomous systems are common applications of artificial intelligence.
+Latency: 8.7118 seconds
+Sources retrieved: 2
+
+Source information:
+  Source 1: ai.txt | Score: 0.6236
+  Source 2: mlops.txt | Score: 0.4226
+
+======================================================================
+CHROMADB EXECUTION SUMMARY
+======================================================================
+Documents loaded  : 5
+Index time        : 4.3986 seconds
+ChromaDB vectors  : 5
+Successful queries: 10
+Failed queries    : 0
+Average latency   : 13.5112 seconds
+Fastest query     : 6.6773 seconds
+Slowest query     : 20.9870 seconds

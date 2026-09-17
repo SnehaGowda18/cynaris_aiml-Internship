@@ -1,0 +1,15 @@
+MODEL : llama3.2:3b
+
+QUESTION:
+Ai modules and libraries ?
+
+ANSWER:
+In Python, you can utilize a variety of AI modules and libraries to build intelligent systems. Some popular ones include:
+
+1. TensorFlow: An open-source machine learning library developed by Google.
+2. Keras: A high-level neural networks API that can run on top of TensorFlow or Theano.
+3. PyTorch: An open-source machine learning library for rapid prototyping and development.
+4. scikit-learn: A machine learning library for Python that provides a wide range of algorithms for classification, regression, clustering, and more.
+5. OpenCV: A computer vision library that provides pre-trained models and functions for image processing, feature detection, object recognition, and more.
+
+These libraries can help you build AI models that can perform tasks such as image classification, natural language processing, speech recognition, and predictive analytics.

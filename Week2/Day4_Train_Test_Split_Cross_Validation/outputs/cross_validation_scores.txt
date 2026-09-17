@@ -1,0 +1,4 @@
+Cross Validation Scores
+[0.66666667 1.         1.         0.5       ]
+
+Average Accuracy: 0.7916666666666666

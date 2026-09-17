@@ -1,0 +1,26 @@
+W7D5 MULTI-DOCUMENT RAG OUTPUT
+======================================================================
+
+LLM Model: llama3.2:3b
+Embedding Model: nomic-embed-text
+
+Question 1: What is Python used for?
+Answer: Python is widely used in various fields, including web development, automation, data analysis, artificial intelligence, and machine learning.
+
+----------------------------------------------------------------------
+Question 2: What are the main types of machine learning?
+Answer: Machine learning can be broadly categorized into three main types: supervised learning, unsupervised learning, and reinforcement learning.
+
+----------------------------------------------------------------------
+Question 3: What is Retrieval Augmented Generation?
+Answer: Retrieval Augmented Generation is a method that combines information retrieval with language generation to provide a model with relevant context to generate answers.
+
+----------------------------------------------------------------------
+Question 4: What are common cybersecurity threats?
+Answer: Phishing, malware, SQL injection, denial of service, and password attacks are common threats to computer systems, networks, applications, and data.
+
+----------------------------------------------------------------------
+Question 5: How does a RAG system generate answers?
+Answer: A RAG system generates answers by first retrieving relevant documents or chunks, which serve as context to a language model. The language model then uses this context to generate an answer.
+
+----------------------------------------------------------------------

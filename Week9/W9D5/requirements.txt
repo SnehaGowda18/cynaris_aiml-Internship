@@ -1,0 +1,7 @@
+crewai
+langgraph
+mlflow
+ragas
+langchain-openai
+python-dotenv
+pytest

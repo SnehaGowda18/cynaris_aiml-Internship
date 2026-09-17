@@ -1,0 +1,20 @@
+Question: What are the benefits of AI in healthcare?
+Answer: The benefits of AI in healthcare include: 
+
+1. Supporting diagnosis
+2. Analyzing medical images
+3. Assisting in drug discovery
+4. Monitoring patients
+
+Question: How is AI used in medical image analysis?
+Answer: AI is used in medical image analysis, such as analyzing X-rays, CT scans, and MRI scans to help identify possible abnormalities.
+
+Question: What is the role of NLP in healthcare?
+Answer: According to the provided context, Natural Language Processing (NLP) helps healthcare systems extract useful information from medical records and reports.
+
+Question: Does AI replace healthcare professionals?
+Answer: No, AI does not replace healthcare professionals. Doctors and other medical professionals remain responsible for clinical decisions.
+
+Question: What are the challenges of AI in healthcare?
+Answer: The challenges of AI in healthcare include data privacy, bias, limited data quality, security risks, and the need for human oversight.
+

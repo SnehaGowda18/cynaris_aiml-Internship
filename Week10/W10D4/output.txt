@@ -1,0 +1,96 @@
+==================================================
+W10D4: HUMAN-IN-THE-LOOP WITH LANGGRAPH
+==================================================
+
+==================================================
+TEST 1
+==================================================
+Input: What is artificial intelligence?
+Classification: question
+Route: answer_question
+
+Graph paused for human review.
+Interrupt information:
+[Interrupt(value={'message': 'Human review required.', 'question': 'Approve this response?', 'input': 'What is artificial intelligence?', 'classification': 'question', 'route': 'answer_question'}, id='c7e34283f64897d7f9eb3cecb45c543a')]
+Response: Approved response: The input is a question. The system selected the question-answering route.
+
+Graph resumed successfully.
+Final response:
+Approved response: The input is a question. The system selected the question-answering route.
+
+==================================================
+TEST 2
+==================================================
+Input: Explain LangGraph.
+Classification: question
+Route: answer_question
+
+Graph paused for human review.
+Interrupt information:
+[Interrupt(value={'message': 'Human review required.', 'question': 'Approve this response?', 'input': 'Explain LangGraph.', 'classification': 'question', 'route': 'answer_question'}, id='deda9a70db6102f2a952eb930e9ed135')]
+Response: Approved response: The input is a question. The system selected the question-answering route.
+
+Graph resumed successfully.
+Final response:
+Approved response: The input is a question. The system selected the question-answering route.
+
+==================================================
+TEST 3
+==================================================
+Input: Write a Python program.
+Classification: task
+Route: perform_task
+
+Graph paused for human review.
+Interrupt information:
+[Interrupt(value={'message': 'Human review required.', 'question': 'Approve this response?', 'input': 'Write a Python program.', 'classification': 'task', 'route': 'perform_task'}, id='87d61626ba9dc5a47b5f2becd9b54463')]
+Response: Approved response: The input is a task. The system selected the task-execution route.
+
+Graph resumed successfully.
+Final response:
+Approved response: The input is a task. The system selected the task-execution route.
+
+==================================================
+TEST 4
+==================================================
+Input: Create a study plan.
+Classification: task
+Route: perform_task
+
+Graph paused for human review.
+Interrupt information:
+[Interrupt(value={'message': 'Human review required.', 'question': 'Approve this response?', 'input': 'Create a study plan.', 'classification': 'task', 'route': 'perform_task'}, id='edf43331fb7b982774f0f372e13e1fb0')]
+Response: Approved response: The input is a task. The system selected the task-execution route.
+
+Graph resumed successfully.
+Final response:
+Approved response: The input is a task. The system selected the task-execution route.
+
+==================================================
+TEST 5
+==================================================
+Input: What is machine learning?
+Classification: question
+Route: answer_question
+
+Graph paused for human review.
+Interrupt information:
+[Interrupt(value={'message': 'Human review required.', 'question': 'Approve this response?', 'input': 'What is machine learning?', 'classification': 'question', 'route': 'answer_question'}, id='448f02f4cb7799a98be0c0850a53f806')]
+Response: Approved response: The input is a question. The system selected the question-answering route.
+
+Graph resumed successfully.
+Final response:
+Approved response: The input is a question. The system selected the question-answering route.
+
+==================================================
+FINAL TEST SUMMARY
+==================================================
+Test 1: question -> answer_question -> approve
+Test 2: question -> answer_question -> approve
+Test 3: task -> perform_task -> approve
+Test 4: task -> perform_task -> approve
+Test 5: question -> answer_question -> approve
+
+All five tests completed successfully.
+
+Output saved automatically to: C:\Users\USER\Desktop\Cynaris Intenship\Week10\W10D4\output.txt

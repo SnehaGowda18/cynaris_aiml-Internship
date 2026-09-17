@@ -1,0 +1,22 @@
+[
+{"question":"What is AI?","answer":"Artificial Intelligence is the simulation of human intelligence."},
+{"question":"Define Artificial Intelligence","answer":"Artificial Intelligence is the simulation of human intelligence."},
+{"question":"What is Machine Learning?","answer":"Machine Learning is a subset of AI."},
+{"question":"Define Machine Learning","answer":"Machine Learning is a subset of AI."},
+{"question":"What is Deep Learning?","answer":"Deep Learning uses neural networks."},
+{"question":"Define Python","answer":"Python is a programming language."},
+{"question":"What is NLP?","answer":"Natural Language Processing deals with text."},
+{"question":"Explain Cloud Computing","answer":"Cloud computing provides computing resources over the internet."},
+{"question":"What is Docker?","answer":"Docker is a container platform."},
+{"question":"What is Kubernetes?","answer":"Kubernetes manages containers."},
+{"question":"Explain Git","answer":"Git is a version control system."},
+{"question":"What is SQL?","answer":"SQL manages relational databases."},
+{"question":"Explain API","answer":"API allows communication between applications."},
+{"question":"What is Linux?","answer":"Linux is an operating system."},
+{"question":"Explain Data Science","answer":"Data Science extracts knowledge from data."},
+{"question":"What is CNN?","answer":"CNN is used in image processing."},
+{"question":"What is RNN?","answer":"RNN processes sequential data."},
+{"question":"Explain LLM","answer":"LLM stands for Large Language Model."},
+{"question":"What is Redis?","answer":"Redis is an in-memory database."},
+{"question":"What is Embedding?","answer":"Embedding converts text into vectors."}
+]

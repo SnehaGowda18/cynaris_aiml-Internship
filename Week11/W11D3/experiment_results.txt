@@ -1,0 +1,1 @@
+Model serving verification successful. Prediction: 0

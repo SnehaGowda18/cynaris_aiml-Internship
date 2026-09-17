@@ -1,0 +1,31 @@
+W9D2 — Web Search Improvement Comparison
+
+Topic: Retrieval Augmented Generation (RAG)
+
+BEFORE WEB SEARCH:
+The research crew generated information about RAG using the language model's existing knowledge. The output explained the definition, workflow, components, advantages, limitations, and applications of RAG.
+
+AFTER WEB SEARCH:
+The Researcher agent used the Web Search tool to retrieve current web information about RAG. The Writer used the retrieved research to create the article, and the Reviewer checked the final content.
+
+IMPROVEMENTS:
+1. The research contains more current information.
+2. The researcher can incorporate recent developments.
+3. The final answer is based on external web research instead of only model knowledge.
+4. The multi-agent workflow separates research, writing, and review.
+5. The Reviewer improves accuracy, clarity, and structure.
+
+AGENT WORKFLOW:
+Researcher → Web Search → Writer → Reviewer
+
+TOOLS USED:
+- CrewAI
+- Ollama
+- llama3.2:3b
+- Custom Web Search Tool
+- Requests
+- BeautifulSoup
+- Python
+
+CONCLUSION:
+Adding web search improved the research workflow by providing access to current external information. The three-agent CrewAI workflow further improved the final output through separate research, writing, and reviewing stages.

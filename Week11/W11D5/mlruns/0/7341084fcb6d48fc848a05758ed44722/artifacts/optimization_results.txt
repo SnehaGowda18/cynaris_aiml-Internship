@@ -1,0 +1,23 @@
+Retrieval k=2
+Number of retrieved chunks: 2
+Artificial intelligence in healthcare can support diagnosis,
+medical image analysis, drug discovery, and patient monitoring.
+AI is designed to support healthcare professionals.
+Doctors and other medical professionals remain responsible
+for clinical decisions.
+
+--------------------------------------------------
+
+Retrieval k=3
+Number of retrieved chunks: 3
+Artificial intelligence in healthcare can support diagnosis,
+medical image analysis, drug discovery, and patient monitoring.
+AI is designed to support healthcare professionals.
+Doctors and other medical professionals remain responsible
+for clinical decisions.
+Challenges of AI in healthcare include data privacy,
+bias, limited data quality, security risks, and
+the need for human oversight.
+
+--------------------------------------------------
+

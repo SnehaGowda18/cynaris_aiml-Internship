@@ -1,0 +1,7 @@
+MODEL : qwen2.5:3b
+
+QUESTION:
+Ai modules and libraries ?
+
+ANSWER:
+AI modules and libraries refer to pre-written code that provides specific functionalities often used in artificial intelligence applications. These can include machine learning algorithms, natural language processing tools, computer vision techniques, and more. Python is particularly popular for AI due to its extensive library ecosystem, which supports the development of various AI projects by providing ready-to-use components and frameworks.

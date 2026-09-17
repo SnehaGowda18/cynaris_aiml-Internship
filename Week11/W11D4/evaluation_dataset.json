@@ -1,0 +1,32 @@
+[
+    {
+        "question": "What are the benefits of AI in healthcare?",
+        "answer": "The benefits of AI in healthcare include:\n\n1. Faster diagnosis\n2. Personalized treatment\n3. Reduced administrative work\n4. Continuous patient monitoring",
+        "contexts": [
+            "Important benefits of AI in healthcare include faster diagnosis, personalized treatment, reduced administrative work, and continuous patient monitoring.\n\nChallenges include data privacy, biased datasets, incorrect predictions, and the need for human supervision.",
+            "Important benefits of AI in healthcare include faster diagnosis, personalized treatment, reduced administrative work, and continuous patient monitoring.\n\nChallenges include data privacy, biased datasets, incorrect predictions, and the need for human supervision.",
+            "AI does not replace healthcare professionals. It supports doctors and medical staff by providing useful information and improving decision-making."
+        ],
+        "reference": "AI can improve healthcare by supporting diagnosis, analyzing medical data, assisting treatment planning, monitoring patients, and improving healthcare efficiency."
+    },
+    {
+        "question": "How is AI used in medical image analysis?",
+        "answer": "Machine learning models can analyze medical images such as X-rays, CT scans, and MRI scans to identify possible abnormalities.",
+        "contexts": [
+            "Artificial Intelligence in Healthcare\n\nArtificial Intelligence (AI) is used in healthcare to support diagnosis, treatment, and patient monitoring.\n\nMachine learning models can analyze medical images such as X-rays, CT scans, and MRI scans to identify possible abnormalities.",
+            "Artificial Intelligence in Healthcare\n\nArtificial Intelligence (AI) is used in healthcare to support diagnosis, treatment, and patient monitoring.\n\nMachine learning models can analyze medical images such as X-rays, CT scans, and MRI scans to identify possible abnormalities.",
+            "Important benefits of AI in healthcare include faster diagnosis, personalized treatment, reduced administrative work, and continuous patient monitoring.\n\nChallenges include data privacy, biased datasets, incorrect predictions, and the need for human supervision."
+        ],
+        "reference": "AI analyzes medical images such as X-rays, CT scans, MRI scans, and ultrasound images to identify patterns and support the detection of diseases."
+    },
+    {
+        "question": "What is the role of NLP in healthcare?",
+        "answer": "Natural Language Processing (NLP) helps healthcare systems understand medical records, clinical notes, and patient questions.",
+        "contexts": [
+            "Natural Language Processing (NLP) helps healthcare systems understand medical records, clinical notes, and patient questions.\n\nAI-based systems can predict patient risks by analyzing medical history, laboratory results, and vital signs.",
+            "Natural Language Processing (NLP) helps healthcare systems understand medical records, clinical notes, and patient questions.\n\nAI-based systems can predict patient risks by analyzing medical history, laboratory results, and vital signs.",
+            "AI does not replace healthcare professionals. It supports doctors and medical staff by providing useful information and improving decision-making."
+        ],
+        "reference": "Natural language processing helps healthcare systems process clinical notes, medical reports, patient records, and other text-based information."
+    }
+]

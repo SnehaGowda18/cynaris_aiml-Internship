@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE            COMMAND                  CREATED         STATUS         PORTS                                         NAMES
+ddb47a7937cd   w12d1-iris-api   "uvicorn app:app --h…"   3 minutes ago   Up 3 minutes   0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp   w12d1-iris-container

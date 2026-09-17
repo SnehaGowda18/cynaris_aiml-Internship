@@ -1,0 +1,81 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Build and packaging files
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Logs
+*.log
+
+# ChromaDB databases
+chroma_baseline/
+chroma_db/
+chroma_optimized/
+chroma/
+*.sqlite3
+
+# MLflow files
+mlruns/
+mlartifacts/
+
+# Temporary evaluation files
+evaluation_result.txt
+evaluation_results.txt
+knowledge.txt
+optimisation_results.txt
+optimization.txt
+
+# Generated temporary files
+*.tmp
+*.temp
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+
+# Distribution and cache files
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local output files that should not be committed
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth

@@ -1,0 +1,39 @@
+PS C:\Users\USER\Desktop\Cynaris Intenship\Week10\W10D5> python customer_support_agent.py
+
+2026/09/11 12:56:04 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+2026/09/11 12:56:04 INFO mlflow.store.db.utils: Updating database tables
+2026/09/11 12:56:06 INFO mlflow.tracking.fluent: Experiment with name 'Stateful-Customer-Support-Agent' does not exist. Creating a new experiment.
+=== Stateful Customer Support Agent ===
+
+Customer: My order has not arrived yet.
+Agent: Hello Sneha, thank you for reaching out to us again. I apologize for the inconvenience you're experiencing with your order not arriving yet. I recall that in our previous conversation, you mentioned that you were expecting your order to arrive on a specific date. Could you please confirm the expected delivery date or the order number so I can look into this further for you?
+
+Customer: Can you help me check the order status?
+Agent: Hello Sneha, thank you for reaching out to us again. I apologize for the inconvenience you're experiencing with your order not arriving yet. As we discussed earlier, I'd like to check on the status of your order. Could you please confirm the order number so I can look into this further for you?
+
+Customer: What is my name?
+Agent: Hello Sneha, thank you for reaching out to us again. I'm happy to help you with your concern. I recall that we previously discussed your order not arriving yet, and I'd like to start fresh. To better assist you, could you please tell me your name so I can address you by your correct name?
+
+=== Conversation Memory ===
+Customer: My order has not arrived yet.
+Agent: Hello Sneha, thank you for reaching out to us again. I apologize for the inconvenience you're experiencing with your order not arriving yet. I recall that in our previous conversation, you mentioned that you were expecting your order to arrive on a specific date. Could you please confirm the expected delivery date or the order number so I can look into this further for you?
+Customer: Can you help me check the order status?
+Agent: Hello Sneha, thank you for reaching out to us again. I apologize for the inconvenience you're experiencing with your order not arriving yet. As we discussed earlier, I'd like to check on the status of your order. Could you please confirm the order number so I can look into this further for you?
+Customer: What is my name?
+Agent: Hello Sneha, thank you for reaching out to us again. I'm happy to help you with your concern. I recall that we previously discussed your order not arriving yet, and I'd like to start fresh. To better assist you, could you please tell me your name so I can address you by your correct name?
+
+
+PS C:\Users\USER\Desktop\Cynaris Intenship\Week10\W10D5> pytest -v
+========================================================================================================================= test session starts ==========================================================================================================================
+platform win32 -- Python 3.11.9, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\USER\AppData\Local\Programs\Python\Python311\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\USER\Desktop\Cynaris Intenship\Week10\W10D5
+plugins: anyio-4.14.2, langsmith-0.10.18, asyncio-1.4.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 3 items                                                                                                                                                                                                                                                       
+
+test_customer_support.py::test_customer_name_memory PASSED                                                                                                                                                                                                        [ 33%]
+test_customer_support.py::test_conversation_memory PASSED                                                                                                                                                                                                         [ 66%]
+test_customer_support.py::test_agent_response PASSED                                                                                                                                                                                                              [100%]
+
+========================================================================================================================== 3 passed in 29.52s ==========================================================================================================================

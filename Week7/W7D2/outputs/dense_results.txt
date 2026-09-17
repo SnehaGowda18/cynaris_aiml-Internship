@@ -1,0 +1,47 @@
+DENSE RETRIEVAL EVALUATION
+======================================================================
+
+Question 1: What is artificial intelligence?
+Expected: document1.pdf
+Correct retrieval: YES
+
+Question 2: What are the types of machine learning?
+Expected: document2.pdf
+Correct retrieval: YES
+
+Question 3: What is supervised learning?
+Expected: document2.pdf
+Correct retrieval: YES
+
+Question 4: What are convolutional neural networks used for?
+Expected: document3.pdf
+Correct retrieval: YES
+
+Question 5: What is deep learning?
+Expected: document3.pdf
+Correct retrieval: YES
+
+Question 6: What is natural language processing?
+Expected: document4.pdf
+Correct retrieval: YES
+
+Question 7: What are embeddings in NLP?
+Expected: document4.pdf
+Correct retrieval: YES
+
+Question 8: What is generative AI?
+Expected: document5.pdf
+Correct retrieval: YES
+
+Question 9: What is retrieval augmented generation?
+Expected: document5.pdf
+Correct retrieval: YES
+
+Question 10: What are large language models?
+Expected: document5.pdf
+Correct retrieval: YES
+
+======================================================================
+Correct retrievals: 10
+Total questions: 10
+Precision: 100.00%

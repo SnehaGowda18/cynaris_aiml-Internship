@@ -1,0 +1,74 @@
+============================================================
+LANGGRAPH STATEFUL AGENT
+3-NODE GRAPH + CONDITIONAL ROUTING
+HUMAN-IN-THE-LOOP INTERRUPT
+============================================================
+
+------------------------------------------------------------
+Test 1
+User: What is artificial intelligence?
+[CLASSIFY] question
+[ROUTE] Classification: question
+Graph paused for human approval.
+Human approval: yes
+[ROUTE] Classification: question
+[HUMAN INPUT] yes
+[RESPOND] Answering your question: What is artificial intelligence?
+Graph resumed.
+Final Response: Answering your question: What is artificial intelligence?
+
+------------------------------------------------------------
+Test 2
+User: Explain how Python functions work.
+[CLASSIFY] question
+[ROUTE] Classification: question
+Graph paused for human approval.
+Human approval: yes
+[ROUTE] Classification: question
+[HUMAN INPUT] yes
+[RESPOND] Answering your question: Explain how Python functions work.
+Graph resumed.
+Final Response: Answering your question: Explain how Python functions work.
+
+------------------------------------------------------------
+Test 3
+User: Create a simple Python calculator.
+[CLASSIFY] task
+[ROUTE] Classification: task
+Graph paused for human approval.
+Human approval: yes
+[ROUTE] Classification: task
+[HUMAN INPUT] yes
+[RESPOND] Processing your requested task: Create a simple Python calculator.
+Graph resumed.
+Final Response: Processing your requested task: Create a simple Python calculator.
+
+------------------------------------------------------------
+Test 4
+User: Tell me today's weather.
+[CLASSIFY] question
+[ROUTE] Classification: question
+Graph paused for human approval.
+Human approval: yes
+[ROUTE] Classification: question
+[HUMAN INPUT] yes
+[RESPOND] Answering your question: Tell me today's weather.
+Graph resumed.
+Final Response: Answering your question: Tell me today's weather.
+
+------------------------------------------------------------
+Test 5
+User: Hello, how are you?
+[CLASSIFY] other
+[ROUTE] Classification: other
+Graph paused for human approval.
+Human approval: no
+[ROUTE] Classification: other
+[HUMAN INPUT] no
+[RESPOND] Human reviewer rejected the request.
+Graph resumed.
+Final Response: Human reviewer rejected the request.
+
+============================================================
+ALL TESTS COMPLETED
+============================================================
