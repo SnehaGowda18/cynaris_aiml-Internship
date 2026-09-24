@@ -1,0 +1,30 @@
+=== W12D2 CI Evidence ===
+=== Lint ===
+All checks passed!
+=== Tests ===
+..                                                                       [100%]
+============================== warnings summary ===============================
+..\..\..\..\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\testclient.py:1
+  C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+2 passed, 1 warning in 6.13s
+=== Docker Container ===
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS         PORTS                                         NAMES
+684e6c74c611   w12d2-ml-api   "uvicorn app:app --hΓÇª"   20 minutes ago   Up 2 minutes   0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp   w12d2-ml-container
+
+=== API Health Check ===
+
+message
+-------
+W12D2 ML API is running
+
+
+=== Prediction Test ===
+
+prediction class_name
+---------- ----------
+         0 setosa
+
+
