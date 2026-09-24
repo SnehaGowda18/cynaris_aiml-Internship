@@ -1,0 +1,23 @@
+W12D3 - Monitoring ML Models in Production
+
+Pytest:
+3 tests passed
+
+Docker image:
+w12d3-ml-api
+
+Container:
+w12d3-ml-container
+
+Host Port:
+8001
+
+Health Check:
+healthy - RandomForest
+
+Prediction Test:
+prediction = 0
+model = RandomForest
+
+Monitoring:
+API health, latency, errors, prediction failures, model accuracy, data drift, and retraining triggers documented.

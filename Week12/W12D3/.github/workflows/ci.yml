@@ -1,0 +1,38 @@
+name: W12D3 CI/CD
+
+on:
+  push:
+    branches:
+      - feat/aiml-W12-sneha
+  pull_request:
+    branches:
+      - feat/aiml-W12-sneha
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Lint
+        run: python -m py_compile app.py tests/test_app.py
+
+      - name: Test
+        run: pytest -v
+
+      - name: Build Docker image
+        run: docker build -t w12d3-ml-api .
+
+      - name: Push Docker image
+        if: github.event_name == 'push'
+        run: echo "Docker image build completed successfully"
