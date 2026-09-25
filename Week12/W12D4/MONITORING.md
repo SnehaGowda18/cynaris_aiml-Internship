@@ -74,3 +74,7 @@ Threshold / Drift Detection
                               |
                               v
                        Validate & Deploy
+## 6. Review Frequency
+- API and infrastructure metrics should be reviewed continuously.
+- Model performance should be reviewed periodically using labelled production data.
+- Retraining decisions should be based on measured model degradation or significant data drift.
