@@ -1,0 +1,12 @@
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                                         NAMES
+1312b20f7222   w12d4-ml-api   "uvicorn app:app --h…"   36 seconds ago   Up 35 seconds   0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp   w12d4-ml-container
+
+message
+-------
+W12D4 ML API is running
+
+
+input prediction
+----- ----------
+ 8.00 High
+
